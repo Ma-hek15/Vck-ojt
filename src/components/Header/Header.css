@@ -1,0 +1,81 @@
+/* Header Container */
+.header1 {
+  width: 100%;
+  background: #2196f3;
+  box-shadow: 0 2px 8px rgba(33, 150, 243, 0.08);
+}
+
+/* Site Header Flex Layout */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 36px;
+  background: #2196f3;
+}
+
+/* Brand/Logo */
+.brand {
+  color: #fff;
+  font-size: 1.7rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  gap: 28px;
+}
+
+/* Individual Link Styling */
+.Links {
+  color: #fff;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: background 0.2s, color 0.2s;
+}
+
+.Links:hover {
+  background: #1769aa;
+  color: #fff;
+}
+
+/* Apply Now Button */
+.apply-btn {
+  background: #4caf50;
+  color: #fff !important;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background 0.2s;
+  text-align: center;
+}
+
+.apply-btn:hover {
+  background: #388e3c;
+  color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .site-header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 14px 10px;
+  }
+  .nav-links {
+    gap: 14px;
+    margin-top: 8px;
+  }
+  .brand {
+     font-size: 1.2rem;
+  }
+}  
